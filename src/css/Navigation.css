@@ -28,15 +28,6 @@
         background-color: red;
     }
 }
-.link{
-    text-decoration: none;
-    &:visited{
-        color: black;
-    }
-    &:hover{
-        color : yellow;
-    }
-}
 .logobox {
     width: 13rem;
     height: 4.5rem;
@@ -44,7 +35,6 @@
     background-image: url('../img/로고.png');
     background-repeat: no-repeat;
     background-position: -1rem -1.3rem;
-    cursor: pointer;
 }
 .navigationbox{
     display: flex;
