@@ -30,6 +30,7 @@
     padding-right: 5rem;
 }
 .loginpage-loginbox__box{
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -50,12 +51,12 @@
     border: none;
     background-color: #E3EEDE;
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 15px;
-    width: 23vw;
+    width: 35vw;
     margin-top: 5px;
     margin-bottom: 20px;
-    margin-left: 35%;
+    margin-left: 20%;
     &:hover{
         transform: scale(105%);
     }

@@ -13,10 +13,10 @@
 .joinform-body{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     height: 60vh;
-    width: 30vw;
-    margin-top: 3rem;
+    width: 43vw;
+    margin-top: 1rem;
 }
 .joinfrom-box{
     display: flex;
@@ -25,33 +25,55 @@
     align-items: center;
     margin-bottom: 2rem;
 }
+
 .joinform-boxtobox{
     display: flex;
     justify-content: space-between;
+    margin: 22px 10px;
+}
+.joinform-boxtobox label{
+    margin-right: 60px;
 }
 .input-info{
     width: 25vw;
     height: 3rem;
     border-radius: 7px;
     border: 1px solid;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: #C1CCB7;
+    padding-left: 15px;
+    font-size: 1.3rem;
     &:focus{
-        border-color: #70e848;
+        outline: 1px solid #8195A9;
     }
 }
+
 .message{
     font-size: 1.2rem;
 }
 .success{
     color: #70e848;
+    margin-left:390px;
 }
 .error{
     color: #e70d06aa;
+    margin-left:280px;
 }
+
 .joinbtn{
     border: none;
     border-radius: 7px;
     width: 15rem;
     margin-left: 0;
     height: 3rem;
+}
+.joinjoinbtn{
+    width: 600px;
+    height: 70px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-size: 1.5rem;
+    background-color: none;
+    border-style: none;
+    border-radius: 15px;
+    border-color:  #C1CCB7;
 }

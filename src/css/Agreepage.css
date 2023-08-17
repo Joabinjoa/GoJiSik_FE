@@ -1,3 +1,8 @@
+.joinbox{
+    background-image: url(../img/배경\ 사진.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 35px 0;}
 .agreepagebody{
     display: flex;
     flex-direction: column;
@@ -13,8 +18,7 @@
     margin-left: 10px;
 }
 
-label {
-    margin-bottom: 5rem;
+label, .joinform-birthtext {
     cursor: pointer;
     font-weight: bold;
     
@@ -61,7 +65,7 @@ input{
 .gotojoin{
     border: none;
     border-radius: 7px;
-    width: 20vw;
+    width: 35vw;
     height: 5vh;
     font-size: 1.5rem;
     cursor: pointer;
