@@ -1,17 +1,18 @@
 .Mainbody{
     display: flex;
     flex-direction: column;
-    align-items:center;
-    background-color: #FDFBEB;
+    align-items:center; 
 }
-
+.mainbox-categorybox-box div:hover {
+    text-decoration-line: none; /* 밑줄 제거 */
+    color: #576c81; /* 글자 색상 변경 */
+}
 .mainbox {
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    width: 80vh;
-    height: 100vh;
+   
 }
 
 .mainbox-categorybox{
@@ -20,15 +21,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 50vw;
+    width: 60%;
     height: 26%;
-    background-color: #d4e9e1;
-    padding: 4rem;
+    /* background-color: #d4e9e1; */
+    
     border-radius: 50px;
 }
 .categorytext{
-    position: absolute;
     top: 0;
+    margin-top: 50px;
+    padding-bottom: 2px;
 }
 .mainbox-categorybox-box{
     display: flex;
@@ -38,19 +40,22 @@
     align-items: center;
     margin-top: 2rem;
 }
+
 .mainbox-categorybox__goverment24box,
 .mainbox-categorybox__kioskbox,
 .mainbox-categorybox__ecommercebox{
-    background-color: #E4A45B;
-    border: none;
-    border-radius: 50px;
-    width: 30%;
-    height: 100%;
+    background-color: #E3EEDE;
+    /* border-right: 3px solid #C1CCB7; */
+    border-radius: 20px;
+    margin: 0 15px;
+    width: 100%;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    color: #213920;
+    justify-content: center;
+    color: black;
     &:hover{
         cursor: pointer;
         text-decoration: underline;
@@ -62,15 +67,12 @@
         color: white;
     }
 }
-.main-postbox{
-    width: 80vw;
-    height: auto;
-    border-radius: 50px;
-    background-color: rgba(231, 199, 180, 0.3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.mainbox-categorybox__goverment24box p,
+.mainbox-categorybox__kioskbox p,
+.mainbox-categorybox__ecommercebox p
+    {
+        margin-top: 40px;
+        margin-bottom: 10px;
 }
 .mainbox-bestpostbox{
    border: 1px solid rgba(231, 199, 180, 1);
@@ -104,4 +106,11 @@
     &:hover{
         color: blue;
     }
+}
+.main-postbox{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.main-postbox h3{
+    margin-right: 950px;
 }
